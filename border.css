@@ -1,0 +1,68 @@
+.div1 {
+    border: 1px solid blue;
+    width: 75%;
+}
+
+#par-1 {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: tomato;
+}
+
+#par-2 {
+    border-style: groove;
+    border-width: 4px 10px;
+    border-color: tomato;
+}
+
+#par-3 {
+    border-style: double;
+    border-width: 4px 10px;
+    border-color: rgb(71, 255, 126);
+}
+
+#par-4 {
+    border-style: outset;
+    border-width: 4px 10px 15px;
+    border-color: rgb(51, 75, 58, 0.2);
+}
+
+.par1 {
+    border: 1px solid red;
+    background-color: rgb(71, 255, 126);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    /* padding: 10px 20px 30px 40px; top-right-bottom-left*/
+    /*  padding: 10px 20px 30px ; 10top-20right-30bottom-20left*/
+    /* padding: 10px 30px; 10 top-bottom 30 right-left */
+    color: salmon;
+    text-indent: 35px;
+    line-height: 0.6;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 7px 2px black;
+}
+
+.tg1 {
+    text-align: center;
+    text-decoration: overline;
+}
+
+.tg2 {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.tg3 {
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.tg4 {
+    text-align: center;
+}
